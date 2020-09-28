@@ -1,0 +1,3 @@
+include ':sportbuff'
+include ':app'
+rootProject.name = "SportBuff"
