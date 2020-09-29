@@ -10,17 +10,21 @@ When you tap on the stream you should show a video player that plays the stream 
 
 ## Android Application
 
-We have provided you with a sample skeleton Android Project, which includes an Android Application that consumes the SDK that you will create as part of your Tech Task and plays a video file.
-
-The Buffs that your SDK create should display over this Video File.
+The SportBuff tech test utilises the sportbuff library (currently internal only).  This library allows the "buff" to be overlayed on top of the !["https://buffup-public.s3.eu-west-2.amazonaws.com/video/toronto+nba+cut+3.mp4"] demo video provided. 
 
 
+##Libraries used
+-Retrofit
+Retrofit turns the Sport Buff HTTP API into a Java interface. This is done using the staging environment `http://demo2373134.mockable.io/` and calling the `@GET("buffs/{buffId}")` function to retrieve the specific buffId.
 
-## Android SDK
+-Android cardview
+The system provides the CardView API as an easy way for you show information inside cards that have a consistent look across the platform
 
-We want an SDK that the Provided Android App Uses to display content (Buff's as we call them) over the existing video.
+-ConstraintLayout
+ConstraintLayout allows you to create large and complex layouts with a flat view hierarchy (no nested view groups).
 
-The SDK should expose a view that the host Application is adding over the video frame that displays the Buff content there.
+-Glide
+Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
 
 
 
@@ -29,7 +33,9 @@ The SDK should expose a view that the host Application is adding over the video 
 The SDK should have the following features
 
 - Expose a view that the host App will add in the UI over the video stream to display the Buffs
+![Buff](Buff.png)
 - Handle all the business and UI logic to display the Buffs over the video in the view
+
 
 
 
