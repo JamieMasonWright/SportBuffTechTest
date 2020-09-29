@@ -22,7 +22,7 @@ Dbuffup/src/main/java/com/buffup/sdk/remote/RetrofitClientInstance.kt,1\d\1d231
 r
 Bbuffup/src/main/java/com/buffup/sdk/remote/networkBoundResource.kt,4\3\43b8d8bf38259b1ff7379cfd756ea73a0a95061e
 d
-4app/src/main/java/com/mahmoud/buffup/MainActivity.kt,b\1\b14163ed4c8810cf0ac0b7a7de4f4866f24fd350
+4app/src/main/java/com/buffup/MainActivity.kt,b\1\b14163ed4c8810cf0ac0b7a7de4f4866f24fd350
 p
 @buffup/src/main/java/com/buffup/sdk/ui/buffup/BuffUpViewModel.kt,0\d\0db8b48b85f82f8f67dbdc323a659a4351c73f64
 _
